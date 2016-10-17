@@ -1,0 +1,40 @@
+body {
+	max-width: 50%;
+	margin: 0 auto;
+}
+
+nav li {
+	display: inline-block;
+	color: black;
+	margin: 15px;
+}
+
+a {
+	text-decoration: none;
+	padding: 8px;
+}
+
+a:hover {
+	background-color: black;
+	color: white;
+}
+
+.first {
+	float: left;
+	margin: 5px;
+}
+
+.second {
+	float: right;
+	margin: 5px;
+}
+
+.nav {
+	background-color: pink;
+}
+
+div {
+	background-color: grey;
+	padding: 15px;
+}
+
