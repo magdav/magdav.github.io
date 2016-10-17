@@ -1,4 +1,8 @@
 body {
+	background-color: grey;
+}
+
+section {
 	max-width: 50%;
 	margin: 0 auto;
 }
@@ -34,7 +38,6 @@ a:hover {
 }
 
 div {
-	background-color: grey;
 	padding: 15px;
 }
 
