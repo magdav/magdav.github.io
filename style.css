@@ -1,10 +1,19 @@
 body {
+	font-family: cursive;
+}
+
+body > header {
 	background-color: grey;
 }
 
-section {
-	max-width: 50%;
-	margin: 0 auto;
+h1, h2, h3, h4 {
+	font-size: x-large;
+}
+
+.art {
+	background-color: lightblue;
+	width: 75%;
+	float: right;
 }
 
 nav li {
@@ -39,5 +48,20 @@ a:hover {
 
 div {
 	padding: 15px;
+}
+
+.bok {
+	background-color: yellow;
+	width: 25%;
+	float: left;
+}
+
+body > footer {
+	background-color: green;
+	clear: both;
+}
+
+.menu_aside li {
+	display: block;
 }
 
