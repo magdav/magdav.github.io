@@ -1,0 +1,120 @@
+<style>
+#flex1, #flex1a {
+  display: flex;
+  flex-flow: row wrap;
+  width: 300px;
+border: 1px solid black;
+margin-bottom:20px;
+}
+
+#flex2, #flex2a {
+  display: flex;
+  flex-flow: row nowrap;
+  width: 300px;
+border: 1px solid black;
+margin-bottom:20px;
+}
+#flex3, #flex3a {
+  display: flex;
+  flex-flow: column wrap;
+  width: 300px;
+height: 100px;
+border: 1px solid black;
+margin-bottom:20px;
+}
+#flex4, #flex4a {
+  display: flex;
+  flex-flow: column nowrap;
+  width: 300px;
+height: 100px;
+border: 1px solid black;
+margin-bottom:20px;
+}
+#flex5, #flex5a {
+  display: flex;
+  flex-flow: column wrap;
+  width: 300px;
+border: 1px solid black;
+margin-bottom:20px;
+}
+.item {
+  width: 80px;
+height: 40px;
+border: 1px solid black;
+}
+
+#flex1a .item, #flex2a .item, #flex3a .item, #flex4a .item, #flex5a .item{
+	flex:auto;
+}
+
+</style>
+<h2>row wrap</h2>
+<div id="flex1">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>row nowrap</h2>
+<div id="flex2">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>column wrap</h2>
+<div id="flex3">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>column nowrap</h2>
+<div id="flex4">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>column wrap bez ograniczenia wysokoœci</h2>
+<div id="flex5">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>row wrap, flex:auto</h2>
+<div id="flex1a">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>row nowrap, flex:auto</h2>
+<div id="flex2a">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>column wrap, flex:auto</h2>
+<div id="flex3a">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>column nowrap, flex:auto</h2>
+<div id="flex4a">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>column wrap bez ograniczenia wysokoœci, flex:auto</h2>
+<div id="flex5a">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>

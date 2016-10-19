@@ -1,0 +1,123 @@
+<style>
+#flex1, #flex1a {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  width: 300px;
+border: 1px solid black;
+margin-bottom:20px;
+}
+
+#flex2, #flex2a {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  width: 300px;
+border: 1px solid black;
+margin-bottom:20px;
+}
+#flex3, #flex3a {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  width: 300px;
+border: 1px solid black;
+margin-bottom:20px;
+}
+#flex4, #flex4a {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: 300px;
+border: 1px solid black;
+margin-bottom:20px;
+}
+#flex5, #flex5a {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+  width: 300px;
+border: 1px solid black;
+margin-bottom:20px;
+}
+.item {
+  width: 80px;
+height: 40px;
+border: 1px solid black;
+}
+
+#flex1a .item, #flex2a .item, #flex3a .item, #flex4a .item, #flex5a .item{
+	flex:auto;
+}
+
+</style>
+<h2>flex-start </h2>
+<div id="flex1">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>flex-end </h2>
+<div id="flex2">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>center </h2>
+<div id="flex3">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>space-between </h2>
+<div id="flex4">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>space-around </h2>
+<div id="flex5">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>flex-start, flex:auto</h2>
+<div id="flex1a">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>flex-end, flex:auto</h2>
+<div id="flex2a">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>center, flex:auto</h2>
+<div id="flex3a">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>space-between, flex:auto</h2>
+<div id="flex4a">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
+<h2>space-around, flex:auto</h2>
+<div id="flex5a">
+  <div class="item">1</div>
+  <div class="item">2</div>
+  <div class="item">3</div>
+  <div class="item">4</div>
+</div>
