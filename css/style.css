@@ -1,0 +1,64 @@
+body {
+	font-family: 'Bungee';
+	background: rgba(255,255,255,1);
+background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(41,184,229,1) 50%, rgba(255,255,255,1) 100%);
+background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(50%, rgba(41,184,229,1)), color-stop(100%, rgba(255,255,255,1)));
+background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(41,184,229,1) 50%, rgba(255,255,255,1) 100%);
+background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(41,184,229,1) 50%, rgba(255,255,255,1) 100%);
+background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(41,184,229,1) 50%, rgba(255,255,255,1) 100%);
+background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(41,184,229,1) 50%, rgba(255,255,255,1) 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ffffff', GradientType=0 );
+}
+
+h1, h2, h3, h4 {
+	font-size: x-large;
+}
+
+.art {
+	width: 75%;
+	float: right;
+}
+
+nav li {
+	display: inline-block;
+	color: black;
+	margin: 15px;
+}
+
+a {
+	text-decoration: none;
+	padding: 8px;
+}
+
+a:hover {
+	background-color: black;
+	color: white;
+}
+
+.first {
+	float: left;
+	margin: 5px;
+}
+
+.second {
+	float: right;
+	margin: 5px;
+}
+
+div {
+	padding: 15px;
+}
+
+.bok {
+	width: 25%;
+	float: left;
+}
+
+body > footer {
+	clear: both;
+}
+
+.menu_aside li {
+	display: block;
+}
+
