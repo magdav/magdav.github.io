@@ -1,0 +1,18 @@
+h1 {
+  color: #FF00FF; }
+
+img {
+  transition: all 0.2s linear;
+  box-shadow: 5px 5px 3px #000;
+  border-radius: 15px;
+  border: 5px #666 solid;
+  width: 100%; }
+  img:hover {
+    opacity: 0.5; }
+
+table tr:nth-child(odd) {
+  background-color: #fff; }
+table tr:nth-child(even) {
+  background-color: #cccccc; }
+
+/*# sourceMappingURL=style_sass.css.map */
